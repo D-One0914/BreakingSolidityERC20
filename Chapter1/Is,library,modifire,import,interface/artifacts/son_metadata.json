@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_moeny",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_moeny",
+						"type": "uint256"
+					}
+				],
+				"name": "addMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_moeny",
+						"type": "uint256"
+					}
+				],
+				"name": "changeMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "money",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Is,library,modifire,import,interface/lec16.sol": "son"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Is,library,modifire,import,interface/lec16.sol": {
+			"keccak256": "0xcc0e76c7ad634393f9f900c14cfa36271d41b45eb33f9e3fe77afccea7eea5a7",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d7fa7f775d85dfbaa5008b96647b9dad8884b0d8fa007fac6b2157d89d653423",
+				"dweb:/ipfs/QmXhMJrXEFRfD7PyweDLHKkydAjGwhGE382kF3PWfuP9UD"
+			]
+		}
+	},
+	"version": 1
+}

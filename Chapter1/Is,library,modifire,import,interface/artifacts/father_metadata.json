@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.5+commit.a4f2e591"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_moeny",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_moeny",
+						"type": "uint256"
+					}
+				],
+				"name": "addMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "money",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Is,library,import,interface/lec16.sol": "father"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Is,library,import,interface/lec16.sol": {
+			"keccak256": "0xf331d810092dcada792593019f7869c4d4a64b4c40800c345253a35f22e1d1aa",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9b1f7253bdff85dcdd711cd9d1c5da29914800b2ac07734da2cf8921f99b3a46",
+				"dweb:/ipfs/Qmf9r6Z6dSDZT7gDns4PVNBBTCTnamRCUYXR9AP61LcCQh"
+			]
+		}
+	},
+	"version": 1
+}

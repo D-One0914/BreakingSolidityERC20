@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_num1",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_num2",
+						"type": "uint8"
+					}
+				],
+				"name": "becomeOverflow",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Is,library,modifire,import,interface/lec18.sol": "lec18"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Is,library,modifire,import,interface/lec18.sol": {
+			"keccak256": "0xfa99a44ac788a833d26c8f19d164a683fb705f5298b0e35eb58a81c0287f35f3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7ce48bf06137247b1b60bcb07fbad4cd939102b933eb3208492774570db12e55",
+				"dweb:/ipfs/QmWbKJnF6hwha3bKnJq5Z86ZdPH5exGkASX79EZuV5xGKh"
+			]
+		}
+	},
+	"version": 1
+}

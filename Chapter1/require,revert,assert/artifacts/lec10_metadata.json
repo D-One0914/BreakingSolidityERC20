@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					}
+				],
+				"name": "assertNow",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					}
+				],
+				"name": "requireNow",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					}
+				],
+				"name": "revertNow",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"require,revert,assert/lec10.sol": "lec10"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"require,revert,assert/lec10.sol": {
+			"keccak256": "0xa1a56f852c6596c83844d27d0698f9557a6badcd085df481b13b6d55ba990f29",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ff5be3315e0ea6503517908e4430364170112f50b9a58ac5b5e2ee57de1f7a17",
+				"dweb:/ipfs/QmVbEVWFwvAQu34FVi6RpZ6rs82s77rCHHKBEz162ZuaTo"
+			]
+		}
+	},
+	"version": 1
+}

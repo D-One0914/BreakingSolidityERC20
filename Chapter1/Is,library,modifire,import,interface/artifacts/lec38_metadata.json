@@ -1,0 +1,111 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "enum lec38.Light",
+						"name": "_lightStatus",
+						"type": "uint8"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_lightStatusInInt",
+						"type": "uint256"
+					}
+				],
+				"name": "currentStatus",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "lightStatus",
+				"outputs": [
+					{
+						"internalType": "enum lec38.Light",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rePair",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "rePairDone",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "turnOff",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "turnOn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Is,library,modifire,import,interface/lec20.sol": "lec38"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Is,library,modifire,import,interface/lec20.sol": {
+			"keccak256": "0x79b072a0339af3b00a8b6a1ee321442dede812e4c27776cfbb0bf9d394481213",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://0da2ed4fcdf3e9389ebc12adc60fc8b672bf1876b06ba810a08ce339b88f88cd",
+				"dweb:/ipfs/Qmd3y3x3Nn9tEEm5q1DqTzc7z5jwZ3xoQa9kUVFD2Bdoa2"
+			]
+		}
+	},
+	"version": 1
+}

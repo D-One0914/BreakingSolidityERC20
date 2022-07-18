@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					}
+				],
+				"name": "assertNow",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					}
+				],
+				"name": "requireNow",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					}
+				],
+				"name": "revertNow",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Basic_smartContract/require,revert,assert/lec8.sol": "lec4"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Basic_smartContract/require,revert,assert/lec8.sol": {
+			"keccak256": "0x3317bbd5f6cbb740e0d3d153006099fdf7513ef782b4f85f65481d8a6b67e92a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b8056f38a57e49598db896ac0c65505b9224a94b5922bf1bbac22e8c349f6a10",
+				"dweb:/ipfs/QmTQNeE15gwwK1EsRxavMrbECFonQyDZxAAdAWk7eGAZqk"
+			]
+		}
+	},
+	"version": 1
+}
